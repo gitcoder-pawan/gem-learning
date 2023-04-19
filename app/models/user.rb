@@ -1,5 +1,7 @@
 class User < ApplicationRecord
     require 'securerandom'
+    has_many :portfolios
+    has_many :stocks, through: :portfolios
 
     has_secure_password
     validates :name, presence: true

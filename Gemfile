@@ -74,3 +74,6 @@ end
 gem 'jwt'
 gem 'bcrypt', '~> 3.1.7'
 gem 'byebug'
+gem 'activeadmin'
+gem 'devise'
+gem 'sassc-rails', '~> 2.1'
