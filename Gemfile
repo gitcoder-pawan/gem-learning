@@ -77,3 +77,7 @@ gem 'byebug'
 gem 'activeadmin'
 gem 'devise'
 gem 'sassc-rails', '~> 2.1'
+
+group :test do |test|
+  gem 'rspec-rails'
+end
